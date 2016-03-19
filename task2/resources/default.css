@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(222, 222, 222);
+}
+#title {
+    background-color: rgb(51, 51, 51);
+}
+#title ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+#title li {
+    float: left;
+}
+#title li a {
+    display: block;
+    width: 7em;
+}
+#bottom {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.article, .pictures, #sidebar {
+    background-color: white;
+    width: 90%;
+    padding: 1em;
+    border: 1px solid rgb(202, 202, 202);
+    box-shadow: 1px 1px 0.5px 0.5px rgb(159, 159, 159);
+    margin: 2em auto 2em auto;
+}
