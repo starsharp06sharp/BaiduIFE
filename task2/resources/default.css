@@ -1,3 +1,6 @@
+.clear {
+    clear: both;
+}
 html {
     background-color: rgb(222, 222, 222);
 }
@@ -11,12 +14,19 @@ html {
     text-align: center;
     overflow: hidden;
 }
-#title li {
+#title li,#title img {
     float: left;
 }
 #title li a {
     display: block;
     width: 7em;
+}
+#title li a:link {
+    color: white;
+    text-decoration: none;
+}
+#title li a:visited {
+    color: rgb(147, 147, 147);
 }
 #bottom {
     color: white;
@@ -25,9 +35,23 @@ html {
 }
 .article, .pictures, #sidebar {
     background-color: white;
-    width: 90%;
+    width: 95%;
     padding: 1em;
     border: 1px solid rgb(202, 202, 202);
     box-shadow: 1px 1px 0.5px 0.5px rgb(159, 159, 159);
     margin: 2em auto 2em auto;
+}
+
+.picture-box {
+    margin:3px;
+    border:1px solid rgb(202, 202, 202);
+    height:auto;
+    width:120px;
+    text-align:center;
+}
+.picture-box img {
+    width: 90%;
+}
+.picture-box.des {
+    text-align:center;
 }
