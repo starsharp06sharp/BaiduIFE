@@ -1,3 +1,6 @@
+#clear {
+    clear: both;
+}
 body {
     background-color: rgb(222, 222, 222);
     margin: 0;
@@ -19,6 +22,7 @@ body {
 }
 #title li,#title img {
     float: left;
+    line-height: 60px;
 }
 #title li a {
     display: block;
@@ -91,6 +95,33 @@ tfoot {
 #sidebar h1 {
     border-left: 5px solid rgb(205, 205, 205);
     font-size: 1.5em;
+}
+#sidebar #label {
+    margin: 1em;
+}
+#sidebar .discription {
+    float: right;
+}
+#sidebar .input, #sidebar .tips {
+    float: right;
+    width: 70%;
+    text-align: left;
+}
+#sidebar .input, #sidebar .tips, #sidebar .discription {
+    margin: 0.5em;
+}
+textarea {
+    width: 90%;
+    height: 5em;
+}
+form .btn{
+    width: 100%;
+    line-height: 2em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(51, 85, 208);
+    border-style: none;
+    border-radius: 5px;
 }
 form .tips {
     font-size: 0.8em;

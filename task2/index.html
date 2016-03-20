@@ -228,44 +228,61 @@
         <h1>这里以后是一个侧栏，这是侧栏的标题</h1>
         <form>
             <div class="label">
-                <span class="discription">请输入邮箱地址：</span>
-                <input type="email" name="email" placeholder="这是一个文本输入框" />
-                <span class="tips">邮箱地址请按格式要求输入</span>
+                <div class="input">
+                    <input type="email" name="email" placeholder="这是一个文本输入框" />
+                </div>
+                <div class="discription">请输入邮箱地址：</div>
+                <div class="tips">邮箱地址请按格式要求输入</div>
+                <div class="clear"></div>
             </div>
             <div class="label">
-                <span class="discription">请输入密码：</span>
-                <input type="password" name="passwd" pattern="[0-9a-zA-Z]{6, 16}" />
-                <br />
-                <span class="discription">请重复输入密码：</span>
-                <input type="password" name="passwd2" pattern="[0-9a-zA-Z]{6, 16}" />
-                <span class="tips">密码为6-16为英文或数字</span>
+                <div class="input">
+                    <input type="password" name="passwd" pattern="[0-9a-zA-Z]{6, 16}" />
+                </div>
+                <div class="discription">请输入密码：</div>
+                <div class="input">
+                    <input type="password" name="passwd2" pattern="[0-9a-zA-Z]{6, 16}" />
+                </div>
+                <div class="discription">请重复输入密码：</div>
+                <div class="tips">密码为6-16为英文或数字</div>
+                <div class="clear"></div>
             </div>
             <div class="label">
-                <span class="discription">性别：</span>
-                <label><input type="radio" name="sex" value="male" />男</label>
-                <label><input type="radio" name="sex" value="female" />女</label>
+                <div class="input">
+                    <label><input type="radio" name="sex" value="male" />男</label>
+                    <label><input type="radio" name="sex" value="female" />女</label>
+                </div>
+                <div class="discription">性别：</div>
+                <div class="clear"></div>
             </div>
             <div class="label">
-                <span class="discription">城市：</span>
-                <select>
-                    <option value="beijing">北京</option>
-                    <option value="wtf">没了，哈哈</option>
-                </select>
+                <div class="input">
+                    <select>
+                        <option value="beijing">北京</option>
+                        <option value="wtf">没了，哈哈</option>
+                    </select>
+                </div>
+                <div class="discription">城市：</div>
+                <div class="clear"></div>
             </div>
             <div class="label">
-                <span class="discription">爱好：</span>
-                <label><input type="checkbox" name="hobby" value="sport" />运动</label>
-                <label><input type="checkbox" name="hobby" value="art" />艺术</label>
-                <label><input type="checkbox" name="hobby" value="science" />科学</label>
+                <div class="input">
+                    <label><input type="checkbox" name="hobby" value="sport" />运动</label>
+                    <label><input type="checkbox" name="hobby" value="art" />艺术</label>
+                    <label><input type="checkbox" name="hobby" value="science" />科学</label>
+                </div>
+                <div class="discription">爱好：</div>
+                <div class="clear"></div>
             </div>
             <div class="label">
-                <span class="discription">个人描述：</span>
-                <textarea>
-                    这是一个多行输入框，输入您的个人描述
-                </textarea>
+                <div  class="input">
+                    <textarea>这是一个多行输入框，输入您的个人描述</textarea>
+                </div>
+                <div class="discription">个人描述：</div>
+                <div class="clear"></div>
             </div>
             <div>
-                <input type="submit" value="确认提交"  />
+                <input type="button" class="btn" value="确认提交"  />
             </div>
     </div>
     
