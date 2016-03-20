@@ -1,19 +1,14 @@
-#clear {
-    clear: both;
+.clear {
+    overflow: auto;
 }
 body {
-    background-color: rgb(222, 222, 222);
     margin: 0;
     padding: 0;
 }
 #title {
-    background-color: rgb(51, 51, 51);
-    overflow: auto;
     width: 100%;
-    box-shadow: 0px 2px 4px 2px rgb(159, 159, 159);
 }
 #title ul {
-    list-style-type: none;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -28,19 +23,7 @@ body {
     display: block;
     width: 7em;
 }
-#title li a:link {
-    color: white;
-    text-decoration: none;
-}
-#title li a:visited {
-    color: rgb(147, 147, 147);
-}
-#content {
-    margin-top: 80px;
-}
 #bottom {
-    color: white;
-    background-color: black;
     text-align: center;
     height: 5em;
 }
@@ -48,23 +31,12 @@ body {
     line-height: 5em;
 }
 .article, .pictures, #sidebar {
-    background-color: white;
     width: 95%;
     padding: 1em;
-    border: 1px solid rgb(202, 202, 202);
-    box-shadow: 1px 1px 0.5px 0.5px rgb(159, 159, 159);
     margin: 2em auto 2em auto;
-}
-.article h2 {
-    color: rgb(103, 103, 103);
-}
-.author, .published-time {
-    color: rgb(103, 103, 103);
-    font-size: 0.8em;
 }
 .picture-box {
     margin:3px;
-    border:1px solid rgb(202, 202, 202);
     height:auto;
     width:120px;
     text-align:center;
@@ -78,7 +50,6 @@ body {
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid rgb(204, 204, 204);
 }
 th, td {
     padding-top: 0.5em;
@@ -86,15 +57,6 @@ th, td {
 }
 th {
     text-align: left;
-    color: white;
-    background-color: rgb(51, 51, 51);
-}
-tfoot {
-    background-color: rgb(204, 204, 204);
-}
-#sidebar h1 {
-    border-left: 5px solid rgb(205, 205, 205);
-    font-size: 1.5em;
 }
 #sidebar #label {
     margin: 1em;
@@ -117,13 +79,4 @@ textarea {
 form .btn{
     width: 100%;
     line-height: 2em;
-    font-weight: bold;
-    color: white;
-    background-color: rgb(51, 85, 208);
-    border-style: none;
-    border-radius: 5px;
-}
-form .tips {
-    font-size: 0.8em;
-    color: rgb(156, 156, 156);
 }
