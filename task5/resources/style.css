@@ -1,0 +1,67 @@
+html {
+    font-family: "微软雅黑", "文泉驿等宽米黑", "苹果丽黑";
+}
+body {
+    background-color: rgb(222, 222, 222);
+}
+#title {
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0px 2px 4px 2px rgb(159, 159, 159);
+}
+#title ul {
+    list-style-type: none;
+}
+#title li a:link {
+    color: white;
+    text-decoration: none;
+}
+#title li a:visited {
+    color: rgb(147, 147, 147);
+}
+#bottom {
+    color: white;
+    background-color: black;
+}
+.article, .pictures, #sidebar {
+    background-color: white;
+    border: 1px solid rgb(202, 202, 202);
+    box-shadow: 1px 1px 0.5px 0.5px rgb(159, 159, 159);
+}
+#sidebar {
+    font-size: 0.7em;
+}
+.article h2 {
+    color: rgb(103, 103, 103);
+}
+.author, .published-time {
+    color: rgb(103, 103, 103);
+    font-size: 0.8em;
+}
+.picture-box {
+    border:1px solid rgb(202, 202, 202);
+}
+table {
+    border: 1px solid rgb(204, 204, 204);
+}
+th {
+    color: white;
+    background-color: rgb(51, 51, 51);
+}
+tfoot {
+    background-color: rgb(204, 204, 204);
+}
+#sidebar h1 {
+    border-left: 5px solid rgb(205, 205, 205);
+    font-size: 1.5em;
+}
+form .btn{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(51, 85, 208);
+    border-style: none;
+    border-radius: 5px;
+}
+form .tips {
+    font-size: 0.8em;
+    color: rgb(156, 156, 156);
+}

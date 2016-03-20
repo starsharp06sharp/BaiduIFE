@@ -1,7 +1,7 @@
 .clear {
     overflow: auto;
 }
-body {
+body{
     margin: 0;
     padding: 0;
 }
@@ -20,29 +20,40 @@ body {
     line-height: 60px;
 }
 #title img {
-    margin-left: 2em;
+    margin-left: 32px;
 }
 #title li a {
     display: block;
-    width: 7em;
+    width: 112px;
 }
 #bottom {
     text-align: center;
-    height: 5em;
+    height: 80px;
 }
 #bottom footer{
-    line-height: 5em;
+    line-height: 80px;
 }
-.article, .pictures, #sidebar {
-    width: 95%;
-    padding: 1em;
-    margin: 2em auto 2em auto;
+#content {
+    margin: 32px;
+    margin-right: 490px;
+}
+#sidebar {
+    width: 400px;
+    float: right;
+    padding: 16px;
+    margin: 32px;
+}
+.article, .pictures {
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .picture-box {
     margin:3px;
     height:auto;
     width:120px;
     text-align:center;
+    display: inline-block;
 }
 .picture-box img {
     width: 90%;
@@ -55,8 +66,8 @@ table {
     border-collapse: collapse;
 }
 th, td {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 th {
     text-align: left;
@@ -66,17 +77,17 @@ th {
 }
 #sidebar .input, #sidebar .tips {
     float: right;
-    width: 70%;
+    width: 50%;
     text-align: left;
 }
 #sidebar .input, #sidebar .tips, #sidebar .discription {
-    margin: 0.5em;
+    margin: 8px;
 }
 textarea {
     width: 90%;
-    height: 5em;
+    height: 90px;
 }
 form .btn{
     width: 100%;
-    line-height: 2em;
+    line-height: 32px;
 }
